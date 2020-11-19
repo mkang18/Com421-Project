@@ -24,12 +24,66 @@ nav {
   padding: 20px;
 }
 
+#experience > h3, h4, h5, h6, h7, h8 {
+  font-size: 150%;
+  color: #0d8FCD;
+  margin-top: 10px;
+}
+
+#education {
+  margin-left: -200px;
+  margin-top: 40px;
+}
+
+#skillsets {
+  margin-left: -200px;
+  margin-top: 40px;
+}
+
+#projects {
+  margin-left: -200px;
+  margin-top: 40px;
+}
+
+#work {
+  margin-left: -200px;
+  margin-top: 40px;
+}
+
+#leadership {
+  margin-left: -200px;
+  margin-top: 90px;
+}
+
+#clubs {
+  margin-left: -200px;
+  margin-top: 70px;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+ul#contact {
+  margin-left: -40px;
+  margin-top: 70px;
+}
+
+#name > h2 {
+  margin-left: 390px;
+  font-size: 300%;
+}
 
 .post-content{
     width:70%;
     float: right;
 
-} */
+}
 
 
 body {
@@ -84,7 +138,6 @@ nav a {
 #name {
   width: auto;
   height: 80px;
-
   background-color: #333a56;
   color: white;
   padding: 30px 700px 100px 50px;
