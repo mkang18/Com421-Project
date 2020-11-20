@@ -16,6 +16,21 @@ header{
   font-family: 'Roboto';
 }
 
+body > a {
+  color: white;
+}
+
+body > a:nth-child(1) {
+  color: white;
+}
+
+body > a:nth-child(2) {
+  position: relative;
+  color: white;
+  margin-left: 50px;
+}
+
+
 a:link {
   margin-left: 80px;
   color: white;
