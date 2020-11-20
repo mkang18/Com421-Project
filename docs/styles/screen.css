@@ -12,6 +12,12 @@ header{
     left: 0;
 }
 
+a:link {
+  margin-left: 80px;
+  color: white;
+  z-index: 1;
+}
+
 
 nav {
   position: absolute;
@@ -24,25 +30,105 @@ nav {
   padding: 20px;
 }
 
+#contact > li:nth-child(3) > a {
+  color: black;
+  margin-left: 10px;
+}
+
+#contact > li:nth-child(5) > a {
+  color: black;
+  margin-left: 5px;
+}
+
+#skills > ul > li {
+  font-size: 130%;
+  font-family: 'EB Garamond';
+}
+
 #experience > h3, h4, h5, h6, h7, h8 {
+  font-family: 'Roboto';
   font-size: 150%;
   color: #0d8FCD;
   margin-top: 10px;
 }
 
+#aboutme > h9 {
+  font-size: 200%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0d8FCD;
+  margin-top: 10px;
+}
+
+#aboutme > p {
+  font-family: 'EB Garamond';
+  font-size: 130%;
+  margin-left: -215px;
+  margin-top: 50px;
+}
+
 #education {
   margin-left: -200px;
   margin-top: 40px;
+  font-family: 'EB Garamond';
 }
 
 #skillsets {
   margin-left: -200px;
   margin-top: 40px;
+  font-family: 'EB Garamond';
+}
+
+#skills > h10 {
+  font-size: 150%;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #0d8FCD;
+}
+
+#skills {
+  margin-top: -40px;
+  font-family: 'EB Garamond';
+  font-size: 130%;
+}
+
+#skills > ul {
+  font-family: 'EB Garamond';
+  font-size: 95%;
+  margin-left: -20px;
+}
+
+#skills > div.leftcolumn {
+  margin-top: 30px;
+}
+
+
+#leftskill {
+  margin-left: -40px;
+}
+
+#middleskill {
+  margin-left: -40px;
+}
+
+#skills > div.middlecolumn {
+  margin-left: 350px;
+  margin-top: -150px;
+}
+
+#rightskill {
+  margin-left: -40px;
+}
+
+#skills > div.rightcolumn {
+  margin-left: 650px;
+  margin-top: -260px;
 }
 
 #projects {
   margin-left: -200px;
   margin-top: 40px;
+  font-family: 'EB Garamond';
 }
 
 #work {
@@ -52,12 +138,12 @@ nav {
 
 #leadership {
   margin-left: -200px;
-  margin-top: 90px;
+  margin-top: 60px;
 }
 
 #clubs {
   margin-left: -200px;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .table {
@@ -82,9 +168,7 @@ ul#contact {
 .post-content{
     width:70%;
     float: right;
-
 }
-
 
 body {
   width: auto;
@@ -135,6 +219,16 @@ nav a {
   padding: 10px 50px 55px 50px;
 }
 
+#content > header {
+  z-index: -1;
+}
+
+body > nav {
+  margin-top: 184px;
+  margin-left: 52px;
+}
+
+
 #name {
   width: auto;
   height: 80px;
@@ -143,7 +237,7 @@ nav a {
   padding: 30px 700px 100px 50px;
 }
 
-#experience {
+#experience, #aboutme {
   display: grid;
   background-color: white;
   grid-template-columns: 25% auto;
@@ -151,6 +245,6 @@ nav a {
 }
 
 
-#experience p:not(.date), #experience ul {
+#experience, #aboutme p:not(.date), #experience, #aboutme ul {
   grid-column: 2;
 }
