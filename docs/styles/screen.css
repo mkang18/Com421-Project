@@ -12,6 +12,10 @@ header{
     left: 0;
 }
 
+#name > h2 {
+  font-family: 'Roboto';
+}
+
 a:link {
   margin-left: 80px;
   color: white;
@@ -79,6 +83,10 @@ nav {
   font-family: 'EB Garamond';
 }
 
+#skillsets {
+  font-family: 'EB Garamond';
+}
+
 #skills > h10 {
   font-size: 150%;
   font-family: 'Roboto';
@@ -134,16 +142,19 @@ nav {
 #work {
   margin-left: -200px;
   margin-top: 40px;
+  font-family: 'EB Garamond';
 }
 
 #leadership {
   margin-left: -200px;
   margin-top: 60px;
+  font-family: 'EB Garamond';
 }
 
 #clubs {
   margin-left: -200px;
   margin-top: 50px;
+  font-family: 'EB Garamond';
 }
 
 .table {
